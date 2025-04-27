@@ -131,3 +131,60 @@ p {
     border: 1px solid var(--gray);
     color: var(--gray);
 }
+
+/* AUTHORS */
+
+.authors__header {
+  max-width: 610px;
+  text-align: center;
+}
+
+.authors__header__title {
+  font-size: 36px;
+}
+
+.authors__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.authors__inner__content {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.authors__inner__content__img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+}
+
+.authors__inner-content-wrapper {
+  max-width: 645px;
+}
+
+.authors__inner-content-head {
+  margin-bottom: 12px;
+}
+
+.authors__inner-content-head__title {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.authors__inner-content-head__subtitle {
+  font-size: 21px;
+  font-weight: 500;
+  color: #575757;
+}
+
+.author__inner-content-text {
+  color: #575757;
+}
+
+.author__inner-content-footer {
+  
+}
